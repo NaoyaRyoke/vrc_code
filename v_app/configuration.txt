@@ -1,0 +1,67 @@
+############################################
+# Configuration File for ADAM application  #
+# 追加アプリコンフィギュレーションファイル #
+############################################
+
+#------------------------------------
+# Application name information
+# アプリケーション名関連情報
+#------------------------------------
+#### Application Program File Name
+#### アプリ実行ファイル名
+APPLICATION	pyObjectDetectionApp-gupa
+
+#### Application Version Name (8 characters or less)
+#### アプリバージョン名(半角8文字以内)
+APPVERSION	V1.1
+
+#### Application Name(Number at the end of the Tag name is Region code (Country code))
+#### アプリ名(数字はリージョンコード、UTF-8で記述)
+APPNAME0	Hand Sign Detection
+APPNAME1	手検出アプリ by Python
+
+#-------------------------------------
+# Resource Information
+# リソース関連情報
+#-------------------------------------
+#### Required ROM (Flash memory) size for this application
+#### アプリが必要とするROM(Flashメモリ)使用量(KB)
+ROMSIZE		2000
+
+#### Required RAM (temporary files and heap) size for this application
+#### アプリが必要とするRAM(tmpファイル+ヒープ)使用量(KB)
+RAMSIZE		1000
+
+#--------------------------------------
+# Script files Information
+# スクリプトファイル情報
+#--------------------------------------
+#### Installer script file name (omissible)
+#### インストーラスクリプトファイル指定(省略可)
+INSTALLER	install.sh
+
+#### Updater script file name (omissible)
+#### アップデータスクリプトファイル指定(省略可)
+UPDATER		update.sh
+
+#### Uninstaller script file name (omissible)
+#### アンインストーラスクリプトファイル指定(省略可)
+UNINSTALLER	uninstall.sh
+
+#--------------------------------------
+# License information
+# ライセンス関連情報
+#--------------------------------------
+#### License registration function ID(8 digit hexadecimal value)
+#### ライセンス登録機能ID(16進8桁数値)
+#### During development, set any value between 0000FF01 to 0000FFFF.
+#### 開発時には、0000FF01から0000FFFFの間の値を設定してください。
+FUNCID		0000FFB1
+
+#### Application ID(8 digit hexadecimal value, Max 16 lines)
+#### アプリケーションID(16進8桁数値：複数可：最大16個)
+APPID		00003421
+
+#### Trial time (minutes) Unlimited if -1
+#### お試し期間(分)　無制限の場合は-1
+TRIALTIME	-1

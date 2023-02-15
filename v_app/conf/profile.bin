@@ -1,0 +1,8 @@
+APPLICATION	pyObjectDetectionApp-gupa
+APPNAME0	Hand Sign Detection
+APPNAME1	手検出アプリ by Python
+ROMSIZE	2000
+RAMSIZE	1000
+INSTALLER	install.sh
+UPDATER	update.sh
+UNINSTALLER	uninstall.sh
